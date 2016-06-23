@@ -1,11 +1,13 @@
 h1{
 	text-align: center;
 	color:white;
+	font-size:30px;
 }
 
 p{
 	text-align: center;
-	color:white
+	color:white;
+	font-size: 25px;
 }
 
 div{
@@ -15,12 +17,31 @@ div{
 }
 #top{
 	align:center;
+	text-align: center;
 }
 
 #circle{
 	height: 100px;
 	width: 100px;
-	background-color: red;
+	background-color: white;
 	border-radius: 50%;
 	display: inline-block;
+	align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	border:solid;
+	border-color: lightgrey;
+}
+
+#circle2{
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border-radius: 50%;
+	align: center;
+	margin-left: 650px;
+	margin-right: 670px;
+	margin-top: 47px;
+	border:solid;
+	border-color: lightgrey;
 }
